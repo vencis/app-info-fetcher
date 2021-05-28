@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+    app-version-checker:
+        container_name: app-info-fetcher
+        build: .
+        image: app-info-fetcher:latest
+        environment:
+            - TZ=Europe/Prague
+        restart: always
+        networks:
+            - svnexport-cli_network
+
+networks:
+    svnexport-cli_network:
+        external: true
+
+

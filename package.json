@@ -1,0 +1,19 @@
+{
+  "name": "app-info",
+  "version": "1.0.0",
+  "description": "NodeJS sources to grab application details from Google Play or Apple App Store",
+  "main": "app-info.js",
+  "scripts": {
+    "start": "node app-info.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.internet-portal.dc/fiser/app-info"
+  },
+  "author": "Vaclav Fiser",
+  "license": "ISC",
+  "dependencies": {
+    "app-store-scraper": "^0.16.3",
+    "google-play-scraper": "^8.0.2"
+  }
+}
