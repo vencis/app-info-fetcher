@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vencis/app-info-fetcher"
+    "url": "https://gitlab.internet-portal.dc/fiser/app-info"
   },
   "author": "Vaclav Fiser",
   "license": "ISC",
   "dependencies": {
-    "app-store-scraper": "^0.16.3",
-    "google-play-scraper": "^8.0.2"
+    "app-store-scraper": "^0.17.0",
+    "google-play-scraper": "^8.0.3"
   }
 }
